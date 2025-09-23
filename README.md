@@ -115,10 +115,10 @@ Note: If you have a link to an assignment that has not been marked, put "open" a
 
 </details>
 
-<details><summary>Tuesday Sept 23rd, 2025</summary>
+<details  open><summary>Tuesday Sept 23rd, 2025</summary>
 
 ### Title
-1.
+1.a bit tired but working on catching up in my classes my goal is to make a resource management game with made up countries i already have the idea down and machanics just need to code it
 1.
 1.
 
