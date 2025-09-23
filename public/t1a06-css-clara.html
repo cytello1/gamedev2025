@@ -17,3 +17,51 @@ hello :3 silly humans ive taken your computer
 <p style="animation: blink 1s step-start infinite;">
  blinky:3
 </p>
+<style>
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+</style>
+
+<p style="animation: rotate 4s linear infinite;">SPINNNNNNN RAHHHHHHHt</p>
+<style>
+  @keyframes colorChange {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
+</style>
+
+<p style="animation: colorChange 3s infinite;">im running out of ideas :P</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spinning Color-Changing Block</title>
+  <style>
+    .spin-color-block {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      animation: spin 2s linear infinite, colorchange 4s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes colorchange {
+      0% { background-color: red; }
+      25% { background-color: orange; }
+      50% { background-color: yellow; }
+      75% { background-color: green; }
+      100% { background-color: red; }
+    }
+  </style>
+</head>
+<body>
+  <div class="spin-color-block"></div>
+</body>
+</html>
