@@ -47,6 +47,11 @@ hello :3 silly humans ive taken your computer
       animation: spin 2s linear infinite, colorchange 4s linear infinite;
     }
 
+
+
+
+
+    
     @keyframes spin {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
@@ -63,5 +68,67 @@ hello :3 silly humans ive taken your computer
 </head>
 <body>
   <div class="spin-color-block"></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fancy Spinning Block</title>
+  <style>
+    .fancy-block {
+      width: 120px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+      
+  
+      animation: spin 2s linear infinite,
+                 colorchange 4s linear infinite,
+                 bounce 2s ease-in-out infinite;
+    }
+
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+  
+    @keyframes colorchange {
+      0%   { background-color: red; }
+      25%  { background-color: orange; }
+      50%  { background-color: yellow; }
+      75%  { background-color: green; }
+      100% { background-color: red; }
+    }
+
+ 
+    @keyframes bounce {
+      0%, 100%   { transform: translateY(0); }
+      50%        { transform: translateY(-10px); }
+    }
+
+    @keyframes spin-bounce {
+      0%   { transform: rotate(0deg) translateY(0); }
+      50%  { transform: rotate(180deg) translateY(-10px); }
+      100% { transform: rotate(360deg) translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="fancy-block">
+    RAHHHHHHHHHHHHHH
+  </div>
+
 </body>
 </html>
