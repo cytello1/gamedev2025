@@ -11,4 +11,13 @@ unordered list<br>
 <li>teddy bear</li>
 <li>building blocks</li>
 </ol><br><br>
-def
+definition list
+<dl>
+<dt>html</dt>
+<dd>a language for creating web pages.</dd>
+<dt>css</dt>
+<dd>a language for styling web pages.</dd>
+<dt>javascript</dt>
+<dd>a language for making web pages.</dd>
+</dl>
+for the a make an ordered list of cities inside an unordered list of countries.
